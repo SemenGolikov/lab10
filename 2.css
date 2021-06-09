@@ -1,0 +1,40 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    background-color: #a0f1ff;
+}
+
+.row__cell {
+    flex: 1;
+    margin: 15px;
+    background-color: #d44545;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-2 {
+    flex: 2
+}
+.cell-4 {
+    flex: 4
+}
+
+.cell-5 {
+    flex: 5;
+}
+
+.cell-3 {
+    flex: 3
+}
+

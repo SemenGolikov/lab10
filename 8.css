@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #0c1613;
+    display: flex;
+    justify-content: center;
+}
+
+.iphone {
+    align-self: center;
+    height: 800px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d3e2d5;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+header img {
+    height: 35px;
+}
+
+button {
+    background: rgb(215, 252, 255);
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+footer {
+    height: 50px;
+    background: #d3e2d5;;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info:nth-child(2) {
+    margin: 20px 0;
+}
+
+.box {
+    height: 120px;
+    width: 120px;
+    background: url("img/forest.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    margin: 30px 0;
+}
+
+.line {
+    height: 17px;
+    width: 240px;
+    margin: 15px 15px;
+}
+
+.button {
+    height: 35px;
+    width: 60px;
+    background-color: rgb(23, 66, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+

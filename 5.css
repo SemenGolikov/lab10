@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.media {
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.media-object {
+    height: 500px;
+    width: 600px;
+    margin: 5px
+}
+
+.media-object img {
+    height: 100%;
+    width: 100%;
+}
+
+.media-body {
+    flex: 1
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.media-body h1, p {
+    background-color: rgb(202, 255, 181);
+    margin: 5px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.media-body p {
+    font-size: 23px;
+    flex: 1;
+    height: 50vh;
+    text-align: center;
+}
